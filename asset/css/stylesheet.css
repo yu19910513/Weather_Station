@@ -1,0 +1,87 @@
+* {
+    font-family: monospace;
+}
+.textSearch {
+    font-size: x-large;
+}
+
+.searchBar {
+border-radius: 5%;
+}
+
+.selection {
+display: inline;
+background-color: rgb(207, 202, 195);
+border-radius: 5%;
+}
+
+.display {
+    display: inline;
+    justify-content: center;
+}
+
+.day1, .day2, .day3, .day4, .day5 {
+margin: 10px;
+width:800px;
+padding: 1%;
+border-radius: 5%;
+background-color: blanchedalmond;
+}
+
+img {
+    display: none;
+}
+
+.green {
+    width: 800px;
+    background-color: rgb(252, 210, 146);
+}
+
+@media screen and (max-width: 992px){
+.selection {
+    width: 100%;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+    .green {
+        width: 200%;
+    }
+    .day1, .day2, .day3, .day4, .day5 {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .city {
+        width: 100px
+    }
+    .search {
+        width: 100%;
+    }
+    .searchCity {
+        width: 100%;
+    }
+    .zip {
+        width: 69%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .green {
+        width: auto;
+    }
+
+.day1, .day2, .day3, .day4, .day5 {
+    width: 100%;
+    }
+.city {
+    width: 80%;
+}
+.search {
+    width: 100%;
+}
+.zip {
+    width: 69%;
+}
+}
